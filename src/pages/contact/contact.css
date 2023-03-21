@@ -1,0 +1,85 @@
+.c-header{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+.c-header h2{
+    margin: 0;
+}
+.c-header button{
+    
+    background-color: #0f6fff;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    margin-top: 7px;
+    cursor: pointer;
+    font-weight: 500;
+    width: 150px;
+    border-radius: 3px;
+    background-image: none;
+    padding: 10px 18px;
+}
+.c-header button:hover{
+    background-color: #000;
+}
+.search-bar{
+margin: 8px 0;
+}
+.search-bar input{
+width: 100%;
+border-color: #777;
+    padding: 10px 10px;
+    font-size: 16px;
+    line-height: 20px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.search-bar input::selection{
+    border-color: #0f6fff;
+}
+
+.contact-list{
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 80%
+}
+.user-container{
+    display: flex;
+    width: 100%;
+    
+}
+.user-container img{
+    border-radius: 50%;
+    height: 56px;
+}
+.user-container .user{
+    display: flex;
+    width: 100%;
+    padding: 8px 3px;
+    gap: 30%;
+    border-top: 1px solid #80808052;
+    
+}
+.user-container .user h3{
+    flex: 1;
+}
+.user-initial h1{
+    border-top: 7px solid #dddada;
+    color: #0f6fff;
+    margin-top: 10px ;
+    margin-bottom: 5px;
+    padding: 10px 0;
+    
+}
+.user-initial {
+    width: 100%;
+}
+@media screen and (max-width:600px) {
+  
+   .login-container{
+    max-height: none;
+   }
+}
