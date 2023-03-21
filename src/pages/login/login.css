@@ -63,7 +63,7 @@ main {
 }
 
 .submit-btn:hover {
-    border: 1px solid #0f6fff;
+    box-shadow: 1px 4px 8px grey;
 }
 
 #extra {
